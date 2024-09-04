@@ -31,7 +31,7 @@ st.title('Personalized Cold Email Generator')
 st.markdown('Personalizes subject lines, greetings, and content based on your prospect and product, boosting response rates !!!')
 
 # Setting up the sidebar for input
-st.sidebar.title("Instagram Script Generator")
+st.sidebar.title("Cold Email Generator")
 api_key = st.sidebar.text_input("Enter your OpenAI API key", type='password')
 submit_api_key = st.sidebar.button("Submit API Key")
 
